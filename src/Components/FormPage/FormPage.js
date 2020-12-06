@@ -5,7 +5,7 @@ import FormikContainer from "../Formik/FormikContainer";
 const FormPage = () => {
   return (
     <Styles>
-      <div className="container-lg ">
+      <div className="container-lg">
         <div className="termArea">
           <ol>
             <li>

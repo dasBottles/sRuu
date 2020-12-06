@@ -6,10 +6,20 @@ export const Styles = styled.div`
     color: #777;
   }
 
+  .termArea {
+    border: 0.1em solid rgba(252, 242, 175);
+    border-radius: 20px;
+  }
+  li {
+    padding: 15px 0 15px 0;
+    color: #8bc0de;
+    word-wrap: normal !important; 
+  }
+
   form {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    /* width: 75%; */
     margin: 100px auto;
 
     label {
@@ -28,8 +38,8 @@ export const Styles = styled.div`
     }
 
     .requestInput {
-      overflow: scrolling;
-      max-height: 550px;
+      overflow: none;
+      height: 350px;
     }
 
     .nameField,
@@ -46,10 +56,5 @@ export const Styles = styled.div`
     border-radius: 5px;
     font-size: 1.2em;
     align-self: center;
-  }
-
-  li {
-    padding: 15px 0 15px 0;
-    color: red;
   }
 `;
