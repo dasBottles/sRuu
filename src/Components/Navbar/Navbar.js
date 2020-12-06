@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <Styles>
-      <div className="container-fluid">
-        <nav class="nav flex-column align-items-center bg-light ">
-          <a class="nav-link">
+      <div className="">
+        <nav class="nav flex-column align-items-center">
+          <a class="navLink">
             {" "}
             <img
               src="https://cdn.betterttv.net/emote/5f9a8c436f583802e38a01a1/2x"
@@ -14,12 +14,15 @@ const Navbar = () => {
             />
           </a>
           <Link to="/">
-            <a class="nav-link h1">Sleepyruu</a>
+            <a class="navLink h1">sleepyruu</a>
           </Link>
           <Link to="/commissions">
-            <a class="nav-link">Commissions</a>
+            <a class="navLink">Commissions</a>
           </Link>
-          <a class="nav-link" href='https://twitter.com/sleepyruu' target='_black'>Twitter</a>
+          <Link to='/colortest'>
+          <a class="navLink" >Interactive Color</a>
+          </Link>
+          <a class="navLink" href='https://twitter.com/sleepyruu' target='_blank'>Twitter</a>
         </nav>
       </div>
     </Styles>
