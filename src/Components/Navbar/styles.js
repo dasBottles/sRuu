@@ -14,9 +14,9 @@ a {
 .nav  {
     margin-bottom: 5%;
     /* background: #8bc0de; // color 1/ */
-    /* background: #c4ebfa; // color 2/cyan
-    background: #fcf2af; // color 3 */
-    background: #fff7d6; //color 4
+    background: #c4ebfa; // color 2/cyan
+    /* background: #fcf2af; // color 3 */
+    /* background: #fff7d6; //color 4 /*
 
     /* opacity: 75%; */
 } 
