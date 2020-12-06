@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-lg">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus
         dictum magna nec scelerisque. Fusce nec velit sed nisl tincidunt

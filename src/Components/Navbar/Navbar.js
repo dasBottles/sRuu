@@ -17,9 +17,9 @@ const Navbar = () => {
             <a class="nav-link h1">Sleepyruu</a>
           </Link>
           <Link to="/commissions">
-            <a class="nav-link">Form</a>
+            <a class="nav-link">Commissions</a>
           </Link>
-          <a class="nav-link">Work</a>
+          <a class="nav-link" href='https://twitter.com/sleepyruu' target='_black'>Twitter</a>
         </nav>
       </div>
     </Styles>

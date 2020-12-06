@@ -9,5 +9,10 @@ export const Styles = styled.div
 
 a {
     text-decoration: none !important;
+    padding: -5px 0px -5px 0px !important;
+}
+
+nav {
+    margin-bottom: 5%;
 }
 `
