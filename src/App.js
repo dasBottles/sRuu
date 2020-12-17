@@ -13,8 +13,6 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/commissions" component={FormPage} />
-        <Route path="/colortest" component={ColorTest} />
-
       </Switch>
     </Router>
     </>
