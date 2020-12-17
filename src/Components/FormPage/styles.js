@@ -7,8 +7,7 @@ export const Styles = styled.div`
   }
 
   .termArea {
-    border: 0.1em solid rgba(252, 242, 175);
-    border-radius: 20px;
+
   }
   li {
     padding: 15px 0 15px 0;
@@ -57,4 +56,10 @@ export const Styles = styled.div`
     font-size: 1.2em;
     align-self: center;
   }
+
+.sectionTitle {
+  font-weight: bold; 
+  border-bottom: thick solid cyan;
+  border-radius: 15%;
+}
 `;
